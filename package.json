@@ -1,0 +1,14 @@
+{
+  "name": "huayao_home",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-html-replace": "latest",
+    "gulp-minify-html": "latest",
+    "rimraf": "latest"
+  }
+}
