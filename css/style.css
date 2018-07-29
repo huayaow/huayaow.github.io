@@ -947,7 +947,7 @@ input[type="button"]:disabled,
 #header > header .avatar {
     display: block;
     margin: 0 auto 2.25em auto;
-    width: 8em;
+    width: 11em;
 }
 
 #header > header h1 {
@@ -957,7 +957,7 @@ input[type="button"]:disabled,
 
 #header > header .subtitle {
     color: #D8E7F3;
-    padding-top: 10px;
+    padding-top: 0.5em;
     font-size: 1.5em;
     font-weight: 400;
 }
@@ -1026,14 +1026,8 @@ input[type="button"]:disabled,
 
 /* Main */
 
-/*
-	#main > section {
-		border-top: solid 6px #f4f4f4;
-	}
-	*/
-
 #main > section > .container {
-    padding: 6em 0 4em 0;
+    padding: 2em 0 2em 0;
 }
 
 #main > section:first-child {
@@ -1041,8 +1035,9 @@ input[type="button"]:disabled,
 }
 
 #home {
-    padding-top: 3em;
+    padding-top: 1em;
 }
+
 /* One
 	#one:before {
 		background-image: url("../images/banner.jpg");
