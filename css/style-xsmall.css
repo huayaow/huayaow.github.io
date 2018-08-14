@@ -14,6 +14,12 @@
 		font-size: 12pt;
 	}
 
+	#header > header .avatar {
+	    display: block;
+	    margin: 0 auto 2.25em auto;
+	    width: 9em;
+	}
+
 /* List */
 
 	ul.actions {
