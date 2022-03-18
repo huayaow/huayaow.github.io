@@ -252,6 +252,29 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.venue-SHINBASHI {
+		/* 新桥 */
+		color: #0089A7;
+	}
+
+	.venue-KARACHA {
+		/* 唐茶 */
+		color: #B47157;
+	}
+
+	.venue-MOEGI {
+		/* 萌黄 */
+		color: #7BA23F;
+	}
+
+	.venue-AOTAKE {
+		/* 青竹 */
+		color: #00896C;
+	}
+
+
+	
+
 /* Container */
 
 	.container {
