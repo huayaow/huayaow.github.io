@@ -3190,6 +3190,10 @@ input, select, textarea {
 				font-size: 1.35em;
 			}
 
+			header.major p {
+				padding-top: 0.8em;
+			}
+
 		/* List */
 
 			ul.labeled-icons li {
@@ -3253,7 +3257,7 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
-
+				
 		/* Footer */
 
 			#footer .copyright li {
