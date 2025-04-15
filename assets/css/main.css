@@ -272,8 +272,9 @@ input, select, textarea {
 		color: #00896C;
 	}
 
-
-	
+  .venue {
+    color: #49bf9d;
+  }
 
 /* Container */
 
