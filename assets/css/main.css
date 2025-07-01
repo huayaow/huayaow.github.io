@@ -76,7 +76,7 @@ input, select, textarea {
 }
 
 .project-span {
-	padding-top: : 1em;
+	padding-top: 1em;
 }
 
 /* Basic */
@@ -251,6 +251,10 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+  .text-light {
+    font-weight: 300;
+  }
 
 	.venue-SHINBASHI {
 		/* 新桥 */
