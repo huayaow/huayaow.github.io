@@ -2213,6 +2213,15 @@ input, select, textarea {
 			padding-left: 0.5em;
 		}
 
+    ul.alt-thin {
+      list-style: none;
+      padding-left: 0;
+    }
+
+      ul.alt-thin li {
+				padding: 0;
+			}
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
