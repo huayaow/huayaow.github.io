@@ -280,6 +280,21 @@ input, select, textarea {
     color: #49bf9d;
   }
 
+  .paper-label {
+    background: #B47157;
+    color: #ffffff;
+    padding: 0.05rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    height: 1.5rem;
+    line-height: 1;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+}
+
 /* Container */
 
 	.container {
