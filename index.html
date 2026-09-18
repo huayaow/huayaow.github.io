@@ -49,7 +49,6 @@
         <p>🪧 We are constantly looking out for motivated PhD, master, and undergraduate students who would like to work on topics related to software and AI quality. Feel free to contact me via email :-) <br>
         <span><a href="https://mp.weixin.qq.com/s/ejfMyIQR5jFoxcEIY5bk9A">我们招收博士 (直博/申请-考核)、硕士和南京大学本科生</a>。如果您对智能软件系统质量保证相关研究问题感兴趣，欢迎将个人简历和简要研究兴趣陈述发送到我邮箱。
         </p>
-
     </section>
 
 
@@ -212,7 +211,8 @@
             <span>Peng Wang 王鹏 (2023)</span><br>
             <span>Jingling Wang 王靖灵 (2023)</span><br>
             <span>Yuge Nie 聂钰格 (2024)</span><br>
-            <span>Yulei Chen 陈煜磊 (2024)</span>
+            <span>Yulei Chen 陈煜磊 (2024)</span><br>
+            <span>Sulong Li 李苏龙 (2026)</span>
           </div>
           <ul></ul>
         </div>
@@ -239,12 +239,12 @@
       </header>
       <ul class="alt">
         <li>
-            <strong><a href="https://gist.nju.edu.cn/course-os">Operating System</a></strong> (2022 ~ 2025)<br>
+            <strong><a href="https://gist.nju.edu.cn/course-os">Operating System</a></strong> (2022 ~ 2026)<br>
             School of Computer Science & School of Artificial Intelligence
         </li>
 
         <li>
-            <strong><a href="https://gist.nju.edu.cn/course-testing">Software Testing</a></strong> (2020 ~ 2025)<br>
+            <strong><a href="https://gist.nju.edu.cn/course-testing">Software Testing</a></strong> (2020 ~ 2026)<br>
             School of Computer Science
         </li>
       </ul>
@@ -290,7 +290,7 @@
                 <i class="fa fa-envelope"></i> &nbsp;hywu [at] nju.edu.cn
             </strong><br>
             <strong>
-                <i class="fa fa-university"></i> &nbsp;Room 501, Computer Science Building
+                <i class="fa fa-university"></i> &nbsp;Room A507, International College Area (国际学院 / 逸夫楼 A 区)
             </strong>
         </p>
         <p>
@@ -304,18 +304,7 @@
 
 
 <!-- Footer -->
-<footer id="footer">
-    <div class="inner">
-        <ul class="icons">
-            <li><a href="http://instagram.com/huayao.42/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://weibo.com/csjtdd" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>
-            <li><a href="http://github.com/huayaow" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>Last Update: May, 2026</li>
-        </ul>
-    </div>
-</footer>
+<div id="footer-placeholder"></div>
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
@@ -324,6 +313,13 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById("footer-placeholder").outerHTML = html;
+    });
+</script>
 
 </body>
 </html>

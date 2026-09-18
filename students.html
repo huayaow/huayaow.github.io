@@ -26,38 +26,36 @@
 
   <section id="publication">
     <header class="major"><h2>Past Students</h2></header>
-
+    
+    <h3>PhD</h3>
     <ul class="alt-thin">
-        <!-- 2025 -->
-        <li>Shengyou Hu 胡圣佑 (PhD), 2021 ~ 2025 ➪ 陕西省科技厅<br>
+        <li>Shengyou Hu 胡圣佑 (2021 ~ 2025) ➪ 陕西省科技厅<br>
           <span class="text-light">面向深度学习图像分类模型的蜕变测试研究 [ASE'23, TSE'26, 江苏省三好学生, 计算机学科美德之星]</span> 
         </li>
-        <li>Zhenyu Pan 潘振宇 (Master), 2022 ~ 2025 ➪ State Grid</li>
-        <li>He Zheng 郑贺 (Master), 2022 ~ 2025 ➪ ByteDance</li>
+    </ul>    
+    
+    <h3>Master</h3>
+    <ul class="alt-thin">
+        <!-- 2025 -->
+        <li>Zhenyu Pan 潘振宇 (2022 ~ 2025) ➪ State Grid</li>
+        <li>He Zheng 郑贺 (2022 ~ 2025) ➪ ByteDance</li>
         <!-- 2024 -->
-        <li>Nanya Gong 龚楠雅 (Master), 2021 ~ 2024 ➪ China Telecom</li>
-        <li>Jiantu Xiang 向健图 (Master), 2021 ~ 2024 ➪ State Grid</li>
+        <li>Nanya Gong 龚楠雅 (2021 ~ 2024) ➪ China Telecom</li>
+        <li>Jiantu Xiang 向健图 (2021 ~ 2024) ➪ State Grid</li>
         <!-- 2023 -->
-        <li>Minqing Pan 潘敏青 (Master), 2020 ~ 2023 ➪ Civil Servant</li>
+        <li>Minqing Pan 潘敏青 (2020 ~ 2023) ➪ Civil Servant</li>
         <!-- 2021 -->
-        <li>Wenjun Deng 邓文俊 (Master), 2018 ~ 2021 ➪ Siyuan<br>
+        <li>Wenjun Deng 邓文俊 (2018 ~ 2021) ➪ Siyuan<br>
           <span class="text-light">[ICSE'21, 系优秀硕士论文提名]</span>
         </li>
-        <li>Lejin Wang 王乐进 (Master), 2018 ~ 2021 ➪ Siyuan </li>
-    </ul>          
+        <li>Lejin Wang 王乐进 (2018 ~ 2021) ➪ Siyuan </li>
+    </ul>
+
   </section>
 </div>
 
 <!-- Footer -->
-<footer id="footer">
-    <div class="inner">
-        <ul class="icons">
-            <li><a href="http://instagram.com/huayao.42/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://weibo.com/csjtdd" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>
-            <li><a href="http://github.com/huayaow" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
-    </div>
-</footer>
+<div id="footer-placeholder"></div>
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
@@ -66,6 +64,13 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById("footer-placeholder").outerHTML = html;
+    });
+</script>
 
 </body>
 </html>
