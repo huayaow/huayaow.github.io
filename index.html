@@ -302,9 +302,19 @@
     </section>
 </div>
 
-
 <!-- Footer -->
-<div id="footer-placeholder"></div>
+<footer id="footer">
+  <div class="inner">
+    <ul class="icons">
+      <li><a href="https://instagram.com/huayao.42/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="https://weibo.com/csjtdd" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>
+      <li><a href="https://github.com/huayaow" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>Last Update: Sep, 2026</li>
+    </ul>
+  </div>
+</footer>
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
@@ -313,13 +323,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script>
-  fetch("footer.html")
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById("footer-placeholder").outerHTML = html;
-    });
-</script>
 
 </body>
 </html>
